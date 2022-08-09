@@ -1,7 +1,9 @@
-/* Sass Nesting */
-button{
-	color: #FF0000;
+/* Hello World */
+$color: #FF0000;
+$color2: #00FF00;
+button {
+	color: $color;
 	&:hover {
-		color: #00FF00;
+		color: $color2;
 	}
 }
